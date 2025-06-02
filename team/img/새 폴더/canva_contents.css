@@ -1,5 +1,6 @@
 * {   margin: 0px;
     padding: 0px;
+    border: solid 1px red;
     /* 기본 여백들을 제거*/
     box-sizing: border-box;
     /* 구역 사이즈기준을 테두리까지*/
@@ -188,4 +189,7 @@ img{
     height: 300px;
     margin-left: 50px;
 }
-   
+
+.방식{
+    font-size: 15px;
+}
