@@ -1,7 +1,5 @@
-*{
-    border:  1px solid red;
+*{ border:  1px solid red;
 }
-
 /*display: inline [span 기본값 ] */
 .s1{
     display: inline; /* 한 줄에 해당 구역 포함 */
@@ -10,9 +8,12 @@
     marker: 20px; /*바깥여백*/
     padding: 20px; /*안쪽여백*/
 }
+.글자2{
+    display: block;
+}
 .s2{
-    display: block; /* 한 줄 차지 구역 : <idv> <h> <p> <ul> <li> <il> */
-     width: 100px; height: 100px; 
+    display: flex; /* 한 줄 차지 구역 : <idv> <h> <p> <ul> <li> <il> */
+     width: 50px; height: 50px; 
      margin: 20px; padding: 20px;
 }
 .s3{
